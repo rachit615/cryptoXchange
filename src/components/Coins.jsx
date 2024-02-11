@@ -17,7 +17,7 @@ const Coins = () => {
   useEffect(() => {
     const fetchCoins = async () => {
       try {
-        const { data } = await axios.get(`${server}/coins/list/`);
+        const { data } = await axios.get(`${server}`);
         setCoins(data);
         // console.log(data);
         setLoading(false);
