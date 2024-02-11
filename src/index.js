@@ -10,7 +10,8 @@ root.render(
     <App />
   </React.StrictMode>
 );
-export const server = `https://api.coingecko.com/api/v3`;
+// export const server = `https://api.coingecko.com/api/v3`;
+export const server = `https://api.coingecko.com/api/v3/coins/list?include_platform=true`;
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
